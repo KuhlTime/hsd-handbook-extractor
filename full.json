@@ -1,0 +1,35 @@
+{
+  "version": "B_SoSe-2021_v12",
+  "date": "März 2021",
+  "specialization": {
+    "G": {
+      "name": "Gemeinsame Module",
+      "factor": 1
+    },
+    "A": {
+      "name": "Vertiefungsrichtung Automatiserung",
+      "factor": 2
+    },
+    "E": {
+      "name": "Vertiefungsrichtung Elektrische Energietechnik",
+      "factor": 2
+    },
+    "M": {
+      "name": "Vertiefungsrichtung Mikroelektronik",
+      "factor": 2
+    },
+    "NI": {
+      "name": "Gemeinsame Module Vertiefungsrichtungen Nachrichtentechnik und Informationstechnik",
+      "factor": 2
+    },
+    "N": {
+      "name": "Vertiefungsrichtung Nachrichtentechnik",
+      "factor": 2
+    },
+    "I": {
+      "name": "Vertiefungsrichtung Informationstechnik",
+      "factor": 2
+    }
+  },
+  "modules": []
+}

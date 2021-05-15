@@ -1,0 +1,21 @@
+{
+  "name": "modulhandbuch-digitizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "André Kuhlmann <akuhltime@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "firebase": "^8.6.1",
+    "inquirer": "^8.0.0",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
