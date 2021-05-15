@@ -1,4 +1,4 @@
-# module-handbook-extractor
+![Banner](./assets/banner.png)
 
 This is a small cli tool to easier extract the information provided in our handbook of modules.
 
