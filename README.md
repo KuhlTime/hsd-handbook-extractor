@@ -13,6 +13,7 @@ The data can be found here: [db.json](https://raw.githack.com/KuhlTime/hsd-handb
   - `name`: The name of the specialization.
   - `factor`: Different specilizations are weight differently when calculating the average grade of a student. 
   - `1:n`: Whether or not only a single module has to be taken or all of them.
+  - `requiredCreditPoints`: The minimum required amount of credit points to get started with this specialization.
 - `modules`: These are all the different modules there are for the particular degree.
   - `name`: The name of the module.
   - `id`: The exam id. (This is different from the module id defined in the ossc)
