@@ -8,7 +8,7 @@ The data can be found here: [db.json](https://raw.githack.com/KuhlTime/hsd-handb
 
 - `version`: The version of the module handbook used to create the db.
 - `degree`: The name of the degree the data is from.
-- `relationships`: The relationships property defines connection rules between the different specializations and modules. Each relationship is defined by an binary operation followed by the specilization shorthand or a specific module id. **The relationships are nested and allow for a *infinitly* deep tree**. Relationships can either be marked as `and` or `xor` (For now there has been no need for any other relationship).
+- `relationships`: The relationships property defines connection rules between the different specializations and modules. Each relationship is defined by an binary operation followed by the specilization shorthand or a specific module id. **The relationships are nested and allows for a *infinitly* deep tree**. Relationships can either be marked as `and` or `xor` (For now there has been no need for any other relationship).
 - `specializations`: These are groups which a module can be associated with.
   - `name`: The name of the specialization.
   - `factor`: Different specilizations are weight differently when calculating the average grade of a student. 
