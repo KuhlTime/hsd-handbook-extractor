@@ -116,7 +116,7 @@
         "1:n": false,
         "requiredCreditPoints": 158
       }
-    },
+		],
     "modules": [
       {
         "name": "Grundlagen der Elektrotechnik I",
