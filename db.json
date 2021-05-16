@@ -1,6 +1,7 @@
 {
   "version": "B_SoSe-2021_v12",
   "degree": "B. Eng. Elektro- und Informationstechnik",
+  "degreeId": 84,
   "relationships": [
     {
       "and": ["G"]
