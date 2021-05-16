@@ -39,7 +39,9 @@ const questions = [
       'M - Mikroelektronik',
       'NI - Nachrichtentechnik und Informationstechnik',
       'N - Nachrichtentechnik',
-      'I - Informationstechnik'
+      'I - Informationstechnik',
+      'B-EI-WMT - Wahlmodule Technisch',
+      'B-EI-WMNT - Wahlmodule Nicht-Technisch'
     ]
   },
   {
