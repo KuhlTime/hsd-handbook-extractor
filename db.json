@@ -1404,6 +1404,193 @@
       "lecturer": [
         "Rieß"
       ]
+    },
+    {
+      "name": "Einführung wissenschaftliches Arbeiten",
+      "id": 6529,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 0,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 4,
+      "semesterNumber": [
+        0
+      ],
+      "lecturer": [
+        "Schultheiß"
+      ]
+    },
+    {
+      "name": "Geht die Welt unter? Der gute Umgang mit Komplexität",
+      "id": 6531,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 0,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 4,
+      "semesterNumber": [
+        0
+      ],
+      "lecturer": [
+        "Kellner"
+      ]
+    },
+    {
+      "name": "IT-Datenschutz",
+      "id": 6512,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 2,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 2,
+      "semesterNumber": [
+        5
+      ],
+      "lecturer": [
+        "Frese"
+      ]
+    },
+    {
+      "name": "Managementansätze in der IT",
+      "id": 6523,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 2,
+      "excercises": 1,
+      "internship": 1,
+      "seminar": 0,
+      "semesterNumber": [
+        5
+      ],
+      "lecturer": [
+        "Zeller"
+      ]
+    },
+    {
+      "name": "Marketing für Ingenieure",
+      "id": 70011,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 2,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 2,
+      "semesterNumber": [
+        5
+      ],
+      "lecturer": [
+        "Lang"
+      ]
+    },
+    {
+      "name": "Pädagogisches Projekt",
+      "id": 6524,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 0,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 1,
+      "semesterNumber": [
+        0
+      ],
+      "lecturer": [
+        "Lux"
+      ]
+    },
+    {
+      "name": "Projektmanagement",
+      "id": 70021,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 1,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 3,
+      "semesterNumber": [
+        0
+      ],
+      "lecturer": [
+        "Frese"
+      ]
+    },
+    {
+      "name": "Spanisch für Fortgeschrittene",
+      "id": 6520,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 2,
+      "excercises": 2,
+      "internship": 0,
+      "seminar": 0,
+      "semesterNumber": [
+        4
+      ],
+      "lecturer": [
+        "Sorger"
+      ]
+    },
+    {
+      "name": "Teamarbeit im Projekt",
+      "id": 6517,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 0,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 4,
+      "semesterNumber": [
+        5
+      ],
+      "lecturer": [
+        "Rieß"
+      ]
+    },
+    {
+      "name": "Vorbereitung auf den TOEFL-Test",
+      "id": 6508,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 2,
+      "excercises": 0,
+      "internship": 0,
+      "seminar": 2,
+      "semesterNumber": [
+        0
+      ],
+      "lecturer": [
+        "S. Meier"
+      ]
+    },
+    {
+      "name": "Wissenschaftliche Texte mit LaTeX",
+      "id": 6515,
+      "specialization": "B-EI-WMNT",
+      "specializationModuleNumber": 0,
+      "creditPoints": 5,
+      "lectures": 2,
+      "excercises": 2,
+      "internship": 0,
+      "seminar": 0,
+      "semesterNumber": [
+        4
+      ],
+      "lecturer": [
+        "Protogerakis"
+      ]
     }
   ]
 }
