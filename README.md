@@ -31,3 +31,7 @@ The data can be found here: [db.json](https://raw.githack.com/KuhlTime/hsd-handb
 ## 🌈 Execution
 
 Run `npm install` followed by `npm start`. You are then guided through the creation of a new module.
+
+## 😮 Issues
+
+In case you find any mistakes, let me know by creating a [new issue](https://github.com/KuhlTime/hsd-handbook-extractor/issues/new). Thanks for helping me!
