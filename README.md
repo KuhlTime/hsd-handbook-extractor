@@ -1,6 +1,6 @@
 ![Banner](./assets/banner.png)
 
-This is a small cli tool to easier extract the information provided in our modules handbook. Currently I only extracted the Electrical Engineering / Information Technology (EI) handbook. The cli tool asks simple questions about each module which then creates a json file to store all the modules into.
+This is a small cli tool to easier extract the information provided in our modules handbook. **Currently I only extracted the Electrical Engineering / Information Technology (EI) handbook.** The cli tool asks simple questions about each module which then creates a json file to store all the modules into.
 
 The data can be found here: [db.json](https://raw.githack.com/KuhlTime/hsd-handbook-extractor/main/db.json)
 
