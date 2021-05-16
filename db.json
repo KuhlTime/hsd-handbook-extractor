@@ -1,6 +1,7 @@
 {
   "version": "B_SoSe-2021_v12",
   "date": "März 2021",
+  "degree": "B. Eng. Elektro- und Informationstechnik",
   "relationships": [
     {
       "and": ["G"]
@@ -1405,5 +1406,4 @@
       ]
     }
   ]
-
 }
