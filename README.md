@@ -4,6 +4,17 @@ This is a small cli tool to easier extract the information provided in our modul
 
 The data can be found here: [db.json](https://raw.githack.com/KuhlTime/hsd-handbook-extractor/main/db.json)
 
+```json
+{
+  "version": "X",
+  "degree": "Bachelor",
+  "relationships": [...],
+  "specializations": {...},
+  "modules": [...]
+}
+```
+
+
 ## 🚏 Structure
 
 - `version`: The version of the module handbook used to create the db.
