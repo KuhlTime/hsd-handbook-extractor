@@ -1,1579 +1,1580 @@
 {
-  "version": "B_SoSe-2021_v12",
-  "degree": "B. Eng. Elektro- und Informationstechnik",
-  "degreeId": 84,
-  "relationships": [
-    {
-      "and": ["G"]
-    },
-    {
-      "xor": [
-        {
-          "and": ["A", 40011]
-        },
-        {
-          "and": ["E"]
-        },
-        {
-          "and": ["M"]
-        },
-        {
-          "and": ["NI", "N"]
-        },
-        {
-          "and": ["NI", "I"]
-        }
-      ]
-    },
-    {
-      "and": ["B-EI-WMT"]
-    },
-    {
-      "and": ["B-EI-WMNT"]
-    },
-    {
-      "and": ["Praxisprojekt"]
-    },
-    {
-      "and": ["Bachelor-Thesis"]
-    }
-  ],
-  "specializations": {
-    "G": {
-      "name": "Gemeinsame Module",
-      "factor": 1,
-      "1:n": false,
-      "requiredCreditPoints": 0
-    },
-    "A": {
-      "name": "Vertiefungsrichtung Automatiserung",
-      "factor": 2,
-      "1:n": false,
-      "requiredCreditPoints": 30
-    },
-    "E": {
-      "name": "Vertiefungsrichtung Elektrische Energietechnik",
-      "factor": 2,
-      "1:n": false,
-      "requiredCreditPoints": 30
-    },
-    "M": {
-      "name": "Vertiefungsrichtung Mikroelektronik",
-      "factor": 2,
-      "1:n": false,
-      "requiredCreditPoints": 30
-    },
-    "NI": {
-      "name": "Gemeinsame Module Vertiefungsrichtungen Nachrichtentechnik und Informationstechnik",
-      "factor": 2,
-      "1:n": false,
-      "requiredCreditPoints": 30
-    },
-    "N": {
-      "name": "Vertiefungsrichtung Nachrichtentechnik",
-      "factor": 2,
-      "1:n": false,
-      "requiredCreditPoints": 30
-    },
-    "I": {
-      "name": "Vertiefungsrichtung Informationstechnik",
-      "factor": 2,
-      "1:n": false,
-      "requiredCreditPoints": 30
-    },
-    "B-EI-WMT": {
-      "name": "Wahlmodule Technisch",
-      "factor": 2,
-      "1:n": true,
-      "requiredCreditPoints": 0
-    },
-    "B-EI-WMNT": {
-      "name": "Wahlmodule Nicht-Technisch",
-      "factor": 2,
-      "1:n": true,
-      "requiredCreditPoints": 0
-    },
-    "Praxisprojekt": {
-      "name": "Praxisprojekt",
-      "factor": 0,
-      "1:n": false,
-      "requiredCreditPoints": 140
-    },
-    "Bachelor-Thesis": {
-      "name": "Bachelor-Thesis",
-      "factor": 5,
-      "1:n": false,
-      "requiredCreditPoints": 158
-    }
-  },
-  "modules": [
-    {
-      "name": "Grundlagen der Elektrotechnik I",
-      "id": 11011,
-      "specialization": "G",
-      "specializationModuleNumber": 1,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 2,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        1
-      ],
-      "lecturer": [
-        "Wrede"
-      ]
-    },
-    {
-      "name": "Grundlagen der Elektrotechnik II",
-      "id": 11021,
-      "specialization": "G",
-      "specializationModuleNumber": 2,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 2,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        2
-      ],
-      "lecturer": [
-        "Wrede"
-      ]
-    },
-    {
-      "name": "Grundlagen der Elektrotechnik III",
-      "id": 11031,
-      "specialization": "G",
-      "specializationModuleNumber": 3,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        3
-      ],
-      "lecturer": [
-        "Pogatzki"
-      ]
-    },
-    {
-      "name": "Mathematik I",
-      "id": 12011,
-      "specialization": "G",
-      "specializationModuleNumber": 4,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 2,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        1
-      ],
-      "lecturer": [
-        "H.-G. Meier"
-      ]
-    },
-    {
-      "name": "Mathematik II",
-      "id": 12021,
-      "specialization": "G",
-      "specializationModuleNumber": 5,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        2
-      ],
-      "lecturer": [
-        "H.-G. Meier"
-      ]
-    },
-    {
-      "name": "Mathematik III",
-      "id": 12031,
-      "specialization": "G",
-      "specializationModuleNumber": 6,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        3
-      ],
-      "lecturer": [
-        "H.-G. Meier"
-      ]
-    },
-    {
-      "name": "Grundlagen der Informatik I",
-      "id": 13011,
-      "specialization": "G",
-      "specializationModuleNumber": 7,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        1
-      ],
-      "lecturer": [
-        "Gronau"
-      ]
-    },
-    {
-      "name": "Grundlagen der Informatik II",
-      "id": 13021,
-      "specialization": "G",
-      "specializationModuleNumber": 8,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        2
-      ],
-      "lecturer": [
-        "Rieß"
-      ]
-    },
-    {
-      "name": "Grundlagen der Informatik III",
-      "id": 13031,
-      "specialization": "G",
-      "specializationModuleNumber": 9,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        3
-      ],
-      "lecturer": [
-        "Scheubel"
-      ]
-    },
-    {
-      "name": "Naturwissenschaftliche Grundlagen I",
-      "id": 14011,
-      "specialization": "G",
-      "specializationModuleNumber": 10,
-      "creditPoints": 5,
-      "lectures": 4,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        1
-      ],
-      "lecturer": [
-        "Prochotta"
-      ]
-    },
-    {
-      "name": "Naturwissenschaftliche Grundlagen II",
-      "id": 14021,
-      "specialization": "G",
-      "specializationModuleNumber": 11,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        2
-      ],
-      "lecturer": [
-        "Prochotta"
-      ]
-    },
-    {
-      "name": "Bauelemente",
-      "id": 15011,
-      "specialization": "G",
-      "specializationModuleNumber": 12,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        2
-      ],
-      "lecturer": [
-        "Feige",
-        "Kellner"
-      ]
-    },
-    {
-      "name": "Schaltungstechnik",
-      "id": 15021,
-      "specialization": "G",
-      "specializationModuleNumber": 13,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        3
-      ],
-      "lecturer": [
-        "Feige",
-        "Kellner"
-      ]
-    },
-    {
-      "name": "Software Engineering",
-      "id": 15031,
-      "specialization": "G",
-      "specializationModuleNumber": 14,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        3
-      ],
-      "lecturer": [
-        "Lux"
-      ]
-    },
-    {
-      "name": "Grundlagen der Betriebswirtschaftslehre",
-      "id": 15041,
-      "specialization": "G",
-      "specializationModuleNumber": 15,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        3
-      ],
-      "lecturer": [
-        "Hölscheidt"
-      ]
-    },
-    {
-      "name": "Englisch",
-      "id": 16011,
-      "specialization": "G",
-      "specializationModuleNumber": 16,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 4,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "S. Meier"
-      ]
-    },
-    {
-      "name": "Sensorsysteme und Signalverarbeitung",
-      "id": 20011,
-      "specialization": "A",
-      "specializationModuleNumber": 1,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 2,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "Feige"
-      ]
-    },
-    {
-      "name": "Regelungstechnik",
-      "id": 20021,
-      "specialization": "A",
-      "specializationModuleNumber": 2,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Beck"
-      ]
-    },
-    {
-      "name": "SPS und Sicherheitstechnik",
-      "id": 20031,
-      "specialization": "A",
-      "specializationModuleNumber": 3,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Haehnel",
-        "Beck"
-      ]
-    },
-    {
-      "name": "Aktorik",
-      "id": 20041,
-      "specialization": "A",
-      "specializationModuleNumber": 4,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 2,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Gottkehaskamp"
-      ]
-    },
-    {
-      "name": "Kommunikationssysteme",
-      "id": 20051,
-      "specialization": "A",
-      "specializationModuleNumber": 5,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Haehnel"
-      ]
-    },
-    {
-      "name": "Prozessleittechnik",
-      "id": 20061,
-      "specialization": "A",
-      "specializationModuleNumber": 6,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 2,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Protogerakis"
-      ]
-    },
-    {
-      "name": "Robotik",
-      "id": 20071,
-      "specialization": "A",
-      "specializationModuleNumber": 7,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Haehnel"
-      ]
-    },
-    {
-      "name": "Elektrische Maschinen",
-      "id": 30011,
-      "specialization": "E",
-      "specializationModuleNumber": 1,
-      "creditPoints": 10,
-      "lectures": 5,
-      "excercises": 2,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "Gottkehaskamp"
-      ]
-    },
-    {
-      "name": "Hochspannungstechnik & EMV",
-      "id": 30021,
-      "specialization": "E",
-      "specializationModuleNumber": 2,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 2,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "Adolph"
-      ]
-    },
-    {
-      "name": "Elektrische Energieversorgung",
-      "id": 30031,
-      "specialization": "E",
-      "specializationModuleNumber": 3,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 2,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "Arlt"
-      ]
-    },
-    {
-      "name": "Leistungselektronik & Antriebsregelung",
-      "id": 30041,
-      "specialization": "E",
-      "specializationModuleNumber": 4,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 2,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "Wrede"
-      ]
-    },
-    {
-      "name": "Halbleitergrundlagen",
-      "id": 50011,
-      "specialization": "M",
-      "specializationModuleNumber": 1,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 0,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Licht",
-        "Rieß"
-      ]
-    },
-    {
-      "name": "Halbleiterfertigung",
-      "id": 50021,
-      "specialization": "M",
-      "specializationModuleNumber": 2,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 0,
-      "internship": 4,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "Licht",
-        "Fülber"
-      ]
-    },
-    {
-      "name": "Mikroelektronik",
-      "id": 50031,
-      "specialization": "M",
-      "specializationModuleNumber": 3,
-      "creditPoints": 10,
-      "lectures": 4,
-      "excercises": 3,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4,
-        5
-      ],
-      "lecturer": [
-        "Fülber"
-      ]
-    },
-    {
-      "name": "Aufbau- und Verbindungstechnik",
-      "id": 50041,
-      "specialization": "M",
-      "specializationModuleNumber": 4,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Licht"
-      ]
-    },
-    {
-      "name": "Mikroelektronische Sensoren",
-      "id": 50051,
-      "specialization": "M",
-      "specializationModuleNumber": 5,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Scheubel"
-      ]
-    },
-    {
-      "name": "Entwurf Integrierter Schaltungen",
-      "id": 50061,
-      "specialization": "M",
-      "specializationModuleNumber": 6,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Rieß"
-      ]
-    },
-    {
-      "name": "Analoge Übertragungstechnik",
-      "id": 50071,
-      "specialization": "M",
-      "specializationModuleNumber": 7,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Rieß"
-      ]
-    },
-    {
-      "name": "Embedded Systems I",
-      "id": 40011,
-      "specialization": "NI",
-      "specializationModuleNumber": 1,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Protogerakis"
-      ]
-    },
-    {
-      "name": "Datenübertragung und Protokolle",
-      "id": 40021,
-      "specialization": "NI",
-      "specializationModuleNumber": 2,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Frese"
-      ]
-    },
-    {
-      "name": "Signal- und Systemtheorie",
-      "id": 40031,
-      "specialization": "NI",
-      "specializationModuleNumber": 3,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Pogatzki"
-      ]
-    },
-    {
-      "name": "Digitale Signalverarbeitung",
-      "id": 40041,
-      "specialization": "NI",
-      "specializationModuleNumber": 4,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Frese"
-      ]
-    },
-    {
-      "name": "Nachrichtencodierung",
-      "id": 40051,
-      "specialization": "NI",
-      "specializationModuleNumber": 5,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Pogatzki"
-      ]
-    },
-    {
-      "name": "Höchstfrequenztechnik",
-      "id": 42011,
-      "specialization": "N",
-      "specializationModuleNumber": 1,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Gronau"
-      ]
-    },
-    {
-      "name": "Schaltungen und Systeme",
-      "id": 42021,
-      "specialization": "N",
-      "specializationModuleNumber": 2,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Pogatzki"
-      ]
-    },
-    {
-      "name": "CAD von Mikrowellenschaltungen",
-      "id": 42031,
-      "specialization": "N",
-      "specializationModuleNumber": 3,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Gronau"
-      ]
-    },
-    {
-      "name": "Optische Nachrichtentechnik",
-      "id": 42041,
-      "specialization": "N",
-      "specializationModuleNumber": 4,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 2,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "A. Braun"
-      ]
-    },
-    {
-      "name": "Software Engineering II",
-      "id": 41011,
-      "specialization": "I",
-      "specializationModuleNumber": 1,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Lux"
-      ]
-    },
-    {
-      "name": "Sicherheit in Netzen",
-      "id": 41021,
-      "specialization": "I",
-      "specializationModuleNumber": 2,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 1,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Frese"
-      ]
-    },
-    {
-      "name": "Embedded Systems II",
-      "id": 41031,
-      "specialization": "I",
-      "specializationModuleNumber": 3,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Protogerakis"
-      ]
-    },
-    {
-      "name": "Betriebssysteme",
-      "id": 41041,
-      "specialization": "I",
-      "specializationModuleNumber": 4,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Lux"
-      ]
-    },
-    {
-      "name": "Praxisprojekt",
-      "id": 80001,
-      "specialization": "Praxisprojekt",
-      "specializationModuleNumber": 0,
-      "creditPoints": 18,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        6
-      ],
-      "lecturer": [
-        "Alle"
-      ]
-    },
-    {
-      "name": "Bachelor-Thesis",
-      "id": 80021,
-      "specialization": "Bachelor-Thesis",
-      "specializationModuleNumber": 0,
-      "creditPoints": 12,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        6
-      ],
-      "lecturer": [
-        "Alle"
-      ]
-    },
-    {
-      "name": "Angewandte IT-Security",
-      "id": 6030,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 1,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 3,
-      "semesterNumber": [],
-      "lecturer": [
-        "Frese"
-      ]
-    },
-    {
-      "name": "Autonomes Fahren",
-      "id": 6063,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 6063,
-      "creditPoints": 5,
-      "lectures": 1,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 3,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "A. Braun"
-      ]
-    },
-    {
-      "name": "Bildverarbeitung",
-      "id": 6002,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 1,
-      "seminar": 1,
-      "semesterNumber": [],
-      "lecturer": [
-        "Lux"
-      ]
-    },
-    {
-      "name": "C# - Programmierung und künstliche Intelligenz",
-      "id": 6023,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [],
-      "lecturer": [
-        "G. Braun"
-      ]
-    },
-    {
-      "name": "Elektrokonstruktion – Rechnergestützte Schaltplanerstellung mit EPLAN",
-      "id": 6055,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 2,
-      "semesterNumber": [],
-      "lecturer": [
-        "Celik"
-      ]
-    },
-    {
-      "name": "Elektrothermische Prozesstechnik",
-      "id": 60091,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [],
-      "lecturer": [
-        "Arlt",
-        "Schubotz"
-      ]
-    },
-    {
-      "name": "Energiespeicher",
-      "id": 60031,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 1,
-      "semesterNumber": [],
-      "lecturer": [
-        "A. Braun"
-      ]
-    },
-    {
-      "name": "Entwicklung und Auslegung von Teilsystemen eines Formula Student Autos (e-Traxx)",
-      "id": 6048,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [],
-      "lecturer": [
-        "Wrede"
-      ]
-    },
-    {
-      "name": "Entwurfsberechnung einer elektrischen Maschine",
-      "id": 6027,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 2,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Gottkehaskamp"
-      ]
-    },
-    {
-      "name": "Grundlagen der Relativitätstheorie und Quantenmechanik",
-      "id": 6062,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Prochotta"
-      ]
-    },
-    {
-      "name": "Industrielle Messtechnik",
-      "id": 6024,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 2,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Feige"
-      ]
-    },
-    {
-      "name": "Lasertechnologie",
-      "id": 60011,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 1,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Scheubel"
-      ]
-    },
-    {
-      "name": "MATLAB in der Elektrotechnik",
-      "id": 6060,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "A. Braun"
-      ]
-    },
-    {
-      "name": "Microcontrollerprogrammierung mit Arduino",
-      "id": 60061,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Mandorf"
-      ]
-    },
-    {
-      "name": "Nachhaltige technische Systeme",
-      "id": 6036,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Kellner"
-      ]
-    },
-    {
-      "name": "Photonik",
-      "id": 6031,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 2,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "A. Braun"
-      ]
-    },
-    {
-      "name": "Photovoltaik",
-      "id": 5052,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Fülber",
-        "Wrede"
-      ]
-    },
-    {
-      "name": "Programmieren mit LabVIEW",
-      "id": 6051,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Feige"
-      ]
-    },
-    {
-      "name": "Projekt Informationstechnik VoIP-Telefonanlage aus der Cloud",
-      "id": 6056,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 1,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 3,
-      "semesterNumber": [],
-      "lecturer": [
-        "Ulrich"
-      ]
-    },
-    {
-      "name": "Schaltgeräte",
-      "id": 6007,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 2,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Göttlich"
-      ]
-    },
-    {
-      "name": "Software-Engineering-Projekt",
-      "id": 6044,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 1,
-      "semesterNumber": [],
-      "lecturer": [
-        "Lux"
-      ]
-    },
-    {
-      "name": "Speichermedien in intelligenten Netzen",
-      "id": 6049,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 1,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 3,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Arlt"
-      ]
-    },
-    {
-      "name": "Studienprojekt Mikroelektronik",
-      "id": 6026,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 4,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Fülber",
-        "Licht",
-        "Scheubel"
-      ]
-    },
-    {
-      "name": "Virtuelle Realität",
-      "id": 6054,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 1,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 3,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Frese"
-      ]
-    },
-    {
-      "name": "Wahrscheinlichkeitsrechnung und Stochastik",
-      "id": 6053,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 3,
-      "excercises": 1,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "H.-G. Meier"
-      ]
-    },
-    {
-      "name": "FPGA-Programmierung / FPGA Programming",
-      "id": 6028,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Rieß"
-      ]
-    },
-    {
-      "name": "FPGA-Programmierung / FPGA Programming",
-      "id": 6058,
-      "specialization": "B-EI-WMT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 2,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Rieß"
-      ]
-    },
-    {
-      "name": "Einführung wissenschaftliches Arbeiten",
-      "id": 6529,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [],
-      "lecturer": [
-        "Schultheiß"
-      ]
-    },
-    {
-      "name": "Geht die Welt unter? Der gute Umgang mit Komplexität",
-      "id": 6531,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [],
-      "lecturer": [
-        "Kellner"
-      ]
-    },
-    {
-      "name": "IT-Datenschutz",
-      "id": 6512,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 2,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Frese"
-      ]
-    },
-    {
-      "name": "Managementansätze in der IT",
-      "id": 6523,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 1,
-      "internship": 1,
-      "seminar": 0,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Zeller"
-      ]
-    },
-    {
-      "name": "Marketing für Ingenieure",
-      "id": 70011,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 2,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Lang"
-      ]
-    },
-    {
-      "name": "Pädagogisches Projekt",
-      "id": 6524,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 1,
-      "semesterNumber": [],
-      "lecturer": [
-        "Lux"
-      ]
-    },
-    {
-      "name": "Projektmanagement",
-      "id": 70021,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 1,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 3,
-      "semesterNumber": [],
-      "lecturer": [
-        "Frese"
-      ]
-    },
-    {
-      "name": "Spanisch für Fortgeschrittene",
-      "id": 6520,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 2,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Sorger"
-      ]
-    },
-    {
-      "name": "Teamarbeit im Projekt",
-      "id": 6517,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 0,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 4,
-      "semesterNumber": [
-        5
-      ],
-      "lecturer": [
-        "Rieß"
-      ]
-    },
-    {
-      "name": "Vorbereitung auf den TOEFL-Test",
-      "id": 6508,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 0,
-      "internship": 0,
-      "seminar": 2,
-      "semesterNumber": [],
-      "lecturer": [
-        "S. Meier"
-      ]
-    },
-    {
-      "name": "Wissenschaftliche Texte mit LaTeX",
-      "id": 6515,
-      "specialization": "B-EI-WMNT",
-      "specializationModuleNumber": 0,
-      "creditPoints": 5,
-      "lectures": 2,
-      "excercises": 2,
-      "internship": 0,
-      "seminar": 0,
-      "semesterNumber": [
-        4
-      ],
-      "lecturer": [
-        "Protogerakis"
-      ]
-    }
-  ]
+  "84": {
+    "version": "B_SoSe-2021_v12",
+    "name": "B. Eng. Elektro- und Informationstechnik",
+    "relationships": [
+      {
+        "and": ["G"]
+      },
+      {
+        "xor": [
+          {
+            "and": ["A", 40011]
+          },
+          {
+            "and": ["E"]
+          },
+          {
+            "and": ["M"]
+          },
+          {
+            "and": ["NI", "N"]
+          },
+          {
+            "and": ["NI", "I"]
+          }
+        ]
+      },
+      {
+        "and": ["B-EI-WMT"]
+      },
+      {
+        "and": ["B-EI-WMNT"]
+      },
+      {
+        "and": ["Praxisprojekt"]
+      },
+      {
+        "and": ["Bachelor-Thesis"]
+      }
+    ],
+    "specializations": {
+      "G": {
+        "name": "Gemeinsame Module",
+        "factor": 1,
+        "1:n": false,
+        "requiredCreditPoints": 0
+      },
+      "A": {
+        "name": "Vertiefungsrichtung Automatiserung",
+        "factor": 2,
+        "1:n": false,
+        "requiredCreditPoints": 30
+      },
+      "E": {
+        "name": "Vertiefungsrichtung Elektrische Energietechnik",
+        "factor": 2,
+        "1:n": false,
+        "requiredCreditPoints": 30
+      },
+      "M": {
+        "name": "Vertiefungsrichtung Mikroelektronik",
+        "factor": 2,
+        "1:n": false,
+        "requiredCreditPoints": 30
+      },
+      "NI": {
+        "name": "Gemeinsame Module Vertiefungsrichtungen Nachrichtentechnik und Informationstechnik",
+        "factor": 2,
+        "1:n": false,
+        "requiredCreditPoints": 30
+      },
+      "N": {
+        "name": "Vertiefungsrichtung Nachrichtentechnik",
+        "factor": 2,
+        "1:n": false,
+        "requiredCreditPoints": 30
+      },
+      "I": {
+        "name": "Vertiefungsrichtung Informationstechnik",
+        "factor": 2,
+        "1:n": false,
+        "requiredCreditPoints": 30
+      },
+      "B-EI-WMT": {
+        "name": "Wahlmodule Technisch",
+        "factor": 2,
+        "1:n": true,
+        "requiredCreditPoints": 0
+      },
+      "B-EI-WMNT": {
+        "name": "Wahlmodule Nicht-Technisch",
+        "factor": 2,
+        "1:n": true,
+        "requiredCreditPoints": 0
+      },
+      "Praxisprojekt": {
+        "name": "Praxisprojekt",
+        "factor": 0,
+        "1:n": false,
+        "requiredCreditPoints": 140
+      },
+      "Bachelor-Thesis": {
+        "name": "Bachelor-Thesis",
+        "factor": 5,
+        "1:n": false,
+        "requiredCreditPoints": 158
+      }
+    },
+    "modules": [
+      {
+        "name": "Grundlagen der Elektrotechnik I",
+        "id": 11011,
+        "specialization": "G",
+        "specializationModuleNumber": 1,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 2,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          1
+        ],
+        "lecturer": [
+          "Wrede"
+        ]
+      },
+      {
+        "name": "Grundlagen der Elektrotechnik II",
+        "id": 11021,
+        "specialization": "G",
+        "specializationModuleNumber": 2,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 2,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          2
+        ],
+        "lecturer": [
+          "Wrede"
+        ]
+      },
+      {
+        "name": "Grundlagen der Elektrotechnik III",
+        "id": 11031,
+        "specialization": "G",
+        "specializationModuleNumber": 3,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          3
+        ],
+        "lecturer": [
+          "Pogatzki"
+        ]
+      },
+      {
+        "name": "Mathematik I",
+        "id": 12011,
+        "specialization": "G",
+        "specializationModuleNumber": 4,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 2,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          1
+        ],
+        "lecturer": [
+          "H.-G. Meier"
+        ]
+      },
+      {
+        "name": "Mathematik II",
+        "id": 12021,
+        "specialization": "G",
+        "specializationModuleNumber": 5,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          2
+        ],
+        "lecturer": [
+          "H.-G. Meier"
+        ]
+      },
+      {
+        "name": "Mathematik III",
+        "id": 12031,
+        "specialization": "G",
+        "specializationModuleNumber": 6,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          3
+        ],
+        "lecturer": [
+          "H.-G. Meier"
+        ]
+      },
+      {
+        "name": "Grundlagen der Informatik I",
+        "id": 13011,
+        "specialization": "G",
+        "specializationModuleNumber": 7,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          1
+        ],
+        "lecturer": [
+          "Gronau"
+        ]
+      },
+      {
+        "name": "Grundlagen der Informatik II",
+        "id": 13021,
+        "specialization": "G",
+        "specializationModuleNumber": 8,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          2
+        ],
+        "lecturer": [
+          "Rieß"
+        ]
+      },
+      {
+        "name": "Grundlagen der Informatik III",
+        "id": 13031,
+        "specialization": "G",
+        "specializationModuleNumber": 9,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          3
+        ],
+        "lecturer": [
+          "Scheubel"
+        ]
+      },
+      {
+        "name": "Naturwissenschaftliche Grundlagen I",
+        "id": 14011,
+        "specialization": "G",
+        "specializationModuleNumber": 10,
+        "creditPoints": 5,
+        "lectures": 4,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          1
+        ],
+        "lecturer": [
+          "Prochotta"
+        ]
+      },
+      {
+        "name": "Naturwissenschaftliche Grundlagen II",
+        "id": 14021,
+        "specialization": "G",
+        "specializationModuleNumber": 11,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          2
+        ],
+        "lecturer": [
+          "Prochotta"
+        ]
+      },
+      {
+        "name": "Bauelemente",
+        "id": 15011,
+        "specialization": "G",
+        "specializationModuleNumber": 12,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          2
+        ],
+        "lecturer": [
+          "Feige",
+          "Kellner"
+        ]
+      },
+      {
+        "name": "Schaltungstechnik",
+        "id": 15021,
+        "specialization": "G",
+        "specializationModuleNumber": 13,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          3
+        ],
+        "lecturer": [
+          "Feige",
+          "Kellner"
+        ]
+      },
+      {
+        "name": "Software Engineering",
+        "id": 15031,
+        "specialization": "G",
+        "specializationModuleNumber": 14,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          3
+        ],
+        "lecturer": [
+          "Lux"
+        ]
+      },
+      {
+        "name": "Grundlagen der Betriebswirtschaftslehre",
+        "id": 15041,
+        "specialization": "G",
+        "specializationModuleNumber": 15,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          3
+        ],
+        "lecturer": [
+          "Hölscheidt"
+        ]
+      },
+      {
+        "name": "Englisch",
+        "id": 16011,
+        "specialization": "G",
+        "specializationModuleNumber": 16,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 4,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "S. Meier"
+        ]
+      },
+      {
+        "name": "Sensorsysteme und Signalverarbeitung",
+        "id": 20011,
+        "specialization": "A",
+        "specializationModuleNumber": 1,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 2,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "Feige"
+        ]
+      },
+      {
+        "name": "Regelungstechnik",
+        "id": 20021,
+        "specialization": "A",
+        "specializationModuleNumber": 2,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Beck"
+        ]
+      },
+      {
+        "name": "SPS und Sicherheitstechnik",
+        "id": 20031,
+        "specialization": "A",
+        "specializationModuleNumber": 3,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Haehnel",
+          "Beck"
+        ]
+      },
+      {
+        "name": "Aktorik",
+        "id": 20041,
+        "specialization": "A",
+        "specializationModuleNumber": 4,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 2,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Gottkehaskamp"
+        ]
+      },
+      {
+        "name": "Kommunikationssysteme",
+        "id": 20051,
+        "specialization": "A",
+        "specializationModuleNumber": 5,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Haehnel"
+        ]
+      },
+      {
+        "name": "Prozessleittechnik",
+        "id": 20061,
+        "specialization": "A",
+        "specializationModuleNumber": 6,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 2,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Protogerakis"
+        ]
+      },
+      {
+        "name": "Robotik",
+        "id": 20071,
+        "specialization": "A",
+        "specializationModuleNumber": 7,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Haehnel"
+        ]
+      },
+      {
+        "name": "Elektrische Maschinen",
+        "id": 30011,
+        "specialization": "E",
+        "specializationModuleNumber": 1,
+        "creditPoints": 10,
+        "lectures": 5,
+        "excercises": 2,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "Gottkehaskamp"
+        ]
+      },
+      {
+        "name": "Hochspannungstechnik & EMV",
+        "id": 30021,
+        "specialization": "E",
+        "specializationModuleNumber": 2,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 2,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "Adolph"
+        ]
+      },
+      {
+        "name": "Elektrische Energieversorgung",
+        "id": 30031,
+        "specialization": "E",
+        "specializationModuleNumber": 3,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 2,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "Arlt"
+        ]
+      },
+      {
+        "name": "Leistungselektronik & Antriebsregelung",
+        "id": 30041,
+        "specialization": "E",
+        "specializationModuleNumber": 4,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 2,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "Wrede"
+        ]
+      },
+      {
+        "name": "Halbleitergrundlagen",
+        "id": 50011,
+        "specialization": "M",
+        "specializationModuleNumber": 1,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 0,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Licht",
+          "Rieß"
+        ]
+      },
+      {
+        "name": "Halbleiterfertigung",
+        "id": 50021,
+        "specialization": "M",
+        "specializationModuleNumber": 2,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 0,
+        "internship": 4,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "Licht",
+          "Fülber"
+        ]
+      },
+      {
+        "name": "Mikroelektronik",
+        "id": 50031,
+        "specialization": "M",
+        "specializationModuleNumber": 3,
+        "creditPoints": 10,
+        "lectures": 4,
+        "excercises": 3,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4,
+          5
+        ],
+        "lecturer": [
+          "Fülber"
+        ]
+      },
+      {
+        "name": "Aufbau- und Verbindungstechnik",
+        "id": 50041,
+        "specialization": "M",
+        "specializationModuleNumber": 4,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Licht"
+        ]
+      },
+      {
+        "name": "Mikroelektronische Sensoren",
+        "id": 50051,
+        "specialization": "M",
+        "specializationModuleNumber": 5,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Scheubel"
+        ]
+      },
+      {
+        "name": "Entwurf Integrierter Schaltungen",
+        "id": 50061,
+        "specialization": "M",
+        "specializationModuleNumber": 6,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Rieß"
+        ]
+      },
+      {
+        "name": "Analoge Übertragungstechnik",
+        "id": 50071,
+        "specialization": "M",
+        "specializationModuleNumber": 7,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Rieß"
+        ]
+      },
+      {
+        "name": "Embedded Systems I",
+        "id": 40011,
+        "specialization": "NI",
+        "specializationModuleNumber": 1,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Protogerakis"
+        ]
+      },
+      {
+        "name": "Datenübertragung und Protokolle",
+        "id": 40021,
+        "specialization": "NI",
+        "specializationModuleNumber": 2,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Frese"
+        ]
+      },
+      {
+        "name": "Signal- und Systemtheorie",
+        "id": 40031,
+        "specialization": "NI",
+        "specializationModuleNumber": 3,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Pogatzki"
+        ]
+      },
+      {
+        "name": "Digitale Signalverarbeitung",
+        "id": 40041,
+        "specialization": "NI",
+        "specializationModuleNumber": 4,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Frese"
+        ]
+      },
+      {
+        "name": "Nachrichtencodierung",
+        "id": 40051,
+        "specialization": "NI",
+        "specializationModuleNumber": 5,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Pogatzki"
+        ]
+      },
+      {
+        "name": "Höchstfrequenztechnik",
+        "id": 42011,
+        "specialization": "N",
+        "specializationModuleNumber": 1,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Gronau"
+        ]
+      },
+      {
+        "name": "Schaltungen und Systeme",
+        "id": 42021,
+        "specialization": "N",
+        "specializationModuleNumber": 2,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Pogatzki"
+        ]
+      },
+      {
+        "name": "CAD von Mikrowellenschaltungen",
+        "id": 42031,
+        "specialization": "N",
+        "specializationModuleNumber": 3,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Gronau"
+        ]
+      },
+      {
+        "name": "Optische Nachrichtentechnik",
+        "id": 42041,
+        "specialization": "N",
+        "specializationModuleNumber": 4,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 2,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "A. Braun"
+        ]
+      },
+      {
+        "name": "Software Engineering II",
+        "id": 41011,
+        "specialization": "I",
+        "specializationModuleNumber": 1,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Lux"
+        ]
+      },
+      {
+        "name": "Sicherheit in Netzen",
+        "id": 41021,
+        "specialization": "I",
+        "specializationModuleNumber": 2,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 1,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Frese"
+        ]
+      },
+      {
+        "name": "Embedded Systems II",
+        "id": 41031,
+        "specialization": "I",
+        "specializationModuleNumber": 3,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Protogerakis"
+        ]
+      },
+      {
+        "name": "Betriebssysteme",
+        "id": 41041,
+        "specialization": "I",
+        "specializationModuleNumber": 4,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Lux"
+        ]
+      },
+      {
+        "name": "Praxisprojekt",
+        "id": 80001,
+        "specialization": "Praxisprojekt",
+        "specializationModuleNumber": 0,
+        "creditPoints": 18,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          6
+        ],
+        "lecturer": [
+          "Alle"
+        ]
+      },
+      {
+        "name": "Bachelor-Thesis",
+        "id": 80021,
+        "specialization": "Bachelor-Thesis",
+        "specializationModuleNumber": 0,
+        "creditPoints": 12,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          6
+        ],
+        "lecturer": [
+          "Alle"
+        ]
+      },
+      {
+        "name": "Angewandte IT-Security",
+        "id": 6030,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 1,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 3,
+        "semesterNumber": [],
+        "lecturer": [
+          "Frese"
+        ]
+      },
+      {
+        "name": "Autonomes Fahren",
+        "id": 6063,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 6063,
+        "creditPoints": 5,
+        "lectures": 1,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 3,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "A. Braun"
+        ]
+      },
+      {
+        "name": "Bildverarbeitung",
+        "id": 6002,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 1,
+        "seminar": 1,
+        "semesterNumber": [],
+        "lecturer": [
+          "Lux"
+        ]
+      },
+      {
+        "name": "C# - Programmierung und künstliche Intelligenz",
+        "id": 6023,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [],
+        "lecturer": [
+          "G. Braun"
+        ]
+      },
+      {
+        "name": "Elektrokonstruktion – Rechnergestützte Schaltplanerstellung mit EPLAN",
+        "id": 6055,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 2,
+        "semesterNumber": [],
+        "lecturer": [
+          "Celik"
+        ]
+      },
+      {
+        "name": "Elektrothermische Prozesstechnik",
+        "id": 60091,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [],
+        "lecturer": [
+          "Arlt",
+          "Schubotz"
+        ]
+      },
+      {
+        "name": "Energiespeicher",
+        "id": 60031,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 1,
+        "semesterNumber": [],
+        "lecturer": [
+          "A. Braun"
+        ]
+      },
+      {
+        "name": "Entwicklung und Auslegung von Teilsystemen eines Formula Student Autos (e-Traxx)",
+        "id": 6048,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [],
+        "lecturer": [
+          "Wrede"
+        ]
+      },
+      {
+        "name": "Entwurfsberechnung einer elektrischen Maschine",
+        "id": 6027,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 2,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Gottkehaskamp"
+        ]
+      },
+      {
+        "name": "Grundlagen der Relativitätstheorie und Quantenmechanik",
+        "id": 6062,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Prochotta"
+        ]
+      },
+      {
+        "name": "Industrielle Messtechnik",
+        "id": 6024,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 2,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Feige"
+        ]
+      },
+      {
+        "name": "Lasertechnologie",
+        "id": 60011,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 1,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Scheubel"
+        ]
+      },
+      {
+        "name": "MATLAB in der Elektrotechnik",
+        "id": 6060,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "A. Braun"
+        ]
+      },
+      {
+        "name": "Microcontrollerprogrammierung mit Arduino",
+        "id": 60061,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Mandorf"
+        ]
+      },
+      {
+        "name": "Nachhaltige technische Systeme",
+        "id": 6036,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Kellner"
+        ]
+      },
+      {
+        "name": "Photonik",
+        "id": 6031,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 2,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "A. Braun"
+        ]
+      },
+      {
+        "name": "Photovoltaik",
+        "id": 5052,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Fülber",
+          "Wrede"
+        ]
+      },
+      {
+        "name": "Programmieren mit LabVIEW",
+        "id": 6051,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Feige"
+        ]
+      },
+      {
+        "name": "Projekt Informationstechnik VoIP-Telefonanlage aus der Cloud",
+        "id": 6056,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 1,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 3,
+        "semesterNumber": [],
+        "lecturer": [
+          "Ulrich"
+        ]
+      },
+      {
+        "name": "Schaltgeräte",
+        "id": 6007,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 2,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Göttlich"
+        ]
+      },
+      {
+        "name": "Software-Engineering-Projekt",
+        "id": 6044,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 1,
+        "semesterNumber": [],
+        "lecturer": [
+          "Lux"
+        ]
+      },
+      {
+        "name": "Speichermedien in intelligenten Netzen",
+        "id": 6049,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 1,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 3,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Arlt"
+        ]
+      },
+      {
+        "name": "Studienprojekt Mikroelektronik",
+        "id": 6026,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 4,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Fülber",
+          "Licht",
+          "Scheubel"
+        ]
+      },
+      {
+        "name": "Virtuelle Realität",
+        "id": 6054,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 1,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 3,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Frese"
+        ]
+      },
+      {
+        "name": "Wahrscheinlichkeitsrechnung und Stochastik",
+        "id": 6053,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 3,
+        "excercises": 1,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "H.-G. Meier"
+        ]
+      },
+      {
+        "name": "FPGA-Programmierung / FPGA Programming",
+        "id": 6028,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Rieß"
+        ]
+      },
+      {
+        "name": "FPGA-Programmierung / FPGA Programming",
+        "id": 6058,
+        "specialization": "B-EI-WMT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 2,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Rieß"
+        ]
+      },
+      {
+        "name": "Einführung wissenschaftliches Arbeiten",
+        "id": 6529,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [],
+        "lecturer": [
+          "Schultheiß"
+        ]
+      },
+      {
+        "name": "Geht die Welt unter? Der gute Umgang mit Komplexität",
+        "id": 6531,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [],
+        "lecturer": [
+          "Kellner"
+        ]
+      },
+      {
+        "name": "IT-Datenschutz",
+        "id": 6512,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 2,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Frese"
+        ]
+      },
+      {
+        "name": "Managementansätze in der IT",
+        "id": 6523,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 1,
+        "internship": 1,
+        "seminar": 0,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Zeller"
+        ]
+      },
+      {
+        "name": "Marketing für Ingenieure",
+        "id": 70011,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 2,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Lang"
+        ]
+      },
+      {
+        "name": "Pädagogisches Projekt",
+        "id": 6524,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 1,
+        "semesterNumber": [],
+        "lecturer": [
+          "Lux"
+        ]
+      },
+      {
+        "name": "Projektmanagement",
+        "id": 70021,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 1,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 3,
+        "semesterNumber": [],
+        "lecturer": [
+          "Frese"
+        ]
+      },
+      {
+        "name": "Spanisch für Fortgeschrittene",
+        "id": 6520,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 2,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Sorger"
+        ]
+      },
+      {
+        "name": "Teamarbeit im Projekt",
+        "id": 6517,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 0,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 4,
+        "semesterNumber": [
+          5
+        ],
+        "lecturer": [
+          "Rieß"
+        ]
+      },
+      {
+        "name": "Vorbereitung auf den TOEFL-Test",
+        "id": 6508,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 0,
+        "internship": 0,
+        "seminar": 2,
+        "semesterNumber": [],
+        "lecturer": [
+          "S. Meier"
+        ]
+      },
+      {
+        "name": "Wissenschaftliche Texte mit LaTeX",
+        "id": 6515,
+        "specialization": "B-EI-WMNT",
+        "specializationModuleNumber": 0,
+        "creditPoints": 5,
+        "lectures": 2,
+        "excercises": 2,
+        "internship": 0,
+        "seminar": 0,
+        "semesterNumber": [
+          4
+        ],
+        "lecturer": [
+          "Protogerakis"
+        ]
+      }
+    ]
+  }
 }
