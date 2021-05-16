@@ -41,57 +41,68 @@
     "G": {
       "name": "Gemeinsame Module",
       "factor": 1,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 0
     },
     "A": {
       "name": "Vertiefungsrichtung Automatiserung",
       "factor": 2,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 30
     },
     "E": {
       "name": "Vertiefungsrichtung Elektrische Energietechnik",
       "factor": 2,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 30
     },
     "M": {
       "name": "Vertiefungsrichtung Mikroelektronik",
       "factor": 2,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 30
     },
     "NI": {
       "name": "Gemeinsame Module Vertiefungsrichtungen Nachrichtentechnik und Informationstechnik",
       "factor": 2,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 30
     },
     "N": {
       "name": "Vertiefungsrichtung Nachrichtentechnik",
       "factor": 2,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 30
     },
     "I": {
       "name": "Vertiefungsrichtung Informationstechnik",
       "factor": 2,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 30
     },
     "B-EI-WMT": {
       "name": "Wahlmodule Technisch",
       "factor": 2,
-      "1:n": true
+      "1:n": true,
+      "requiredCreditPoints": 0
     },
     "B-EI-WMNT": {
       "name": "Wahlmodule Nicht-Technisch",
       "factor": 2,
-      "1:n": true
+      "1:n": true,
+      "requiredCreditPoints": 0
     },
     "Praxisprojekt": {
       "name": "Praxisprojekt",
       "factor": 0,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 140
     },
     "Bachelor-Thesis": {
       "name": "Bachelor-Thesis",
       "factor": 5,
-      "1:n": false
+      "1:n": false,
+      "requiredCreditPoints": 158
     }
   },
   "modules": [
