@@ -1,5 +1,6 @@
-{
-  "84": {
+[
+  {
+    "id": 84,
     "version": "B_SoSe-2021_v12",
     "name": "B. Eng. Elektro- und Informationstechnik",
     "relationships": [
@@ -1588,4 +1589,4 @@
       }
     ]
   }
-}
+]
