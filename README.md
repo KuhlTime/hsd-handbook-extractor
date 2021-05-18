@@ -1,4 +1,6 @@
-![Banner](./assets/banner.png)
+<p align="center">
+  <img src="./assets/banner.png" alt="Banner" height="240px">
+</p>
 
 This is a small cli tool to easier extract the information provided in our modules handbook. **Currently I only extracted the Electrical Engineering / Information Technology (EI) handbook.** The cli tool asks simple questions about each module which then creates a json file to store all the modules into.
 
